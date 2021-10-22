@@ -14,7 +14,7 @@ def hangman():
     # Stages to build the hanging man for each wrong guess.
     stages = ["",
               "________      ",
-              "|             ",
+              "|      |       ",
               "|      |      ",
               "|      0      ",
               "|     /|\     ",
