@@ -20,6 +20,8 @@ def hangman():
               "|     /|\     ",
               "|     / \     ",
               "|             ",
+              "~~~~~~~~~~    ",
+              "              ",
               ]
     # Letters that make up the word when a correct letter is guessed.
     remaining_letters = list(word)
