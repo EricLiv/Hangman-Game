@@ -50,7 +50,7 @@ def hangman():
     # Player loses game if
     if not win:
         print('\n'.join(stages[0: wrong_guesses]))
-        print('You lose! The word was {}'.format(word))
+        print('You lose! The word was "{}" '.format(word))
 
 
 hangman()
