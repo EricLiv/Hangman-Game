@@ -6,9 +6,9 @@ import random
 def hangman():
     # List the words that will be randomly selected for game.
     word_list = ["python", "Java", "computer", "hacker", "painter", "coding", "Cybersecurity", "Computer Science", "Web Development",
-                 "Data Science", "Software Enginerring", "Linux", "WireShark", "encryption", "GitHub", "Django", "Reddit", "technology", "Geeking"]
+                 "Data Science", "Software Enginerring", "Linux", "WireShark", "encryption", "GitHub", "Django", "Reddit", "technology", "Geeking", "JavaScript", "C Languages", "Kotlin", "scripting", "Git", "Bash", "firewall", "router", "systems admin", "cloud", "security", "Hash Crack", "pass the hash", "social engineering", "red team", "blue team", "ethical hacking", "Nmap", "Kali", "Ubuntu", "Unix", "Windows", "MacOS", "Scrum", "Agile", "AWS", "Bootstrap", "GUI", "security operations center", "networking", "Comptia", "binary code", "sandbox", "demilitarization zone", "backdoor", "virus", "trojan horse", "worm", "OSINT", "Redux", "React", "VMWare", "Oracle", "VirtualBox", "Hack the Box", "Try Hack Me", "Exploit", "msConsole", "Metasploit", "Burp Suite", "full stack", "Hyper Text Markup Language", "Cascading Style Sheets"]
     # Randomize the word list - words selected randomly.
-    random_number = random.randint(0, 18)
+    random_number = random.randint(0, 71)
     word = word_list[random_number]
     wrong_guesses = 0
     # Stages to build the hanging man for each wrong guess.
