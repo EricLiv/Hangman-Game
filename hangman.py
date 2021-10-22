@@ -14,7 +14,7 @@ def hangman():
     # Stages to build the hanging man for each wrong guess.
     stages = ["",
               "________      ",
-              "|      |       ",
+              "|      |      ",
               "|      |      ",
               "|      0      ",
               "|     /|\     ",
@@ -30,7 +30,7 @@ def hangman():
     # -1 to accomodate 0-index
     while wrong_guesses < len(stages) - 1:
         print('\n')
-    # Input for player interaction
+    # Input for player interaction, correct if, else wrong.
         guess = input("Guess a letter")
         if guess in remaining_letters:
             character_index = remaining_letters.index(guess)
@@ -47,7 +47,7 @@ def hangman():
             win = True
     # End loop
             break
-    # Player lose game if
+    # Player loses game if
     if not win:
         print('\n'.join(stages[0: wrong_guesses]))
         print('You lose! The word was {}'.format(word))
