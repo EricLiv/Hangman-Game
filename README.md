@@ -8,6 +8,7 @@ Hangman game written in Python5. This game is the traditional hangman game:
 - A wrong guess will construct a piece of the hanging man
 - The code will loop until the player either completes the word, or loses the game
 in which a 'win' or 'lose' message will appear and the loop will break
+- Some answers are multiple words, use "spacebar" as your letter guess to check for word separations
 
 ## How to use code
 
