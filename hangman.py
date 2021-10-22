@@ -33,7 +33,7 @@ def hangman():
     while wrong_guesses < len(stages) - 1:
         print('\n')
     # Input for player interaction, correct if, else wrong.
-        guess = input("Guess a letter")
+        guess = input("Guess a letter: ")
         if guess in remaining_letters:
             character_index = remaining_letters.index(guess)
             letter_board[character_index] = guess
