@@ -13,5 +13,6 @@ in which a 'win' or 'lose' message will appear and the loop will break
 ## How to use code
 
 This code can be directly copied and/or the repository can be cloned
-- add code to your IDE and run using pygame (python hangman.py[enter])
+- add code to your IDE (e.g., VS Code) and save to a folder on your local drive
+- open terminal and navigate to the foldaer on your local drive and run using pygame (python hangman.py[enter])
 - ensure you have python installed on your device and have downloaded and installed "pygame" using the terminal (pip install pygame[enter])
