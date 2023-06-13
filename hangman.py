@@ -1,4 +1,4 @@
-import pygame
+import random
 
 # Define the main function for the hangman game.
 
@@ -23,6 +23,7 @@ def hangman():
     wrong_guesses = 0
     # Stages to build the hanging man for each wrong guess.
     stages = ["",
+              "H A N G M A N ",
               "________      ",
               "|      |      ",
               "|      |      ",
@@ -38,7 +39,7 @@ def hangman():
     # Layout for each letter in a word.
     letter_board = ["__"] * len(word)
     win = False
-    print('Welcome to Hangman')
+    print("Welcome to Eric Livingston's Hangman Game!!")
     # -1 to accomodate 0-index
     while wrong_guesses < len(stages) - 1:
         print('\n')
