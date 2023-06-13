@@ -1,4 +1,4 @@
-import random
+import pygame
 
 # Define the main function for the hangman game.
 
