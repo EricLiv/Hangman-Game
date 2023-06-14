@@ -5,7 +5,11 @@ import random
 
 def hangman():
     # List the words that will be randomly selected for game.
+<<<<<<< HEAD
     word_list = ["python", "Java", "computer", "hacker", "painter", "coding",       "Cybersecurity", "Computer Science", "Web Development",
+=======
+    word_list = ["python", "Java", "computer", "hacker", "painter", "coding", "Cybersecurity", "Computer Science", "Web Development",
+>>>>>>> 1bce6e57fbfd8ff1ad605c4a628f9c9c95dcc45c
                  "Data Science", "Software Enginerring", "Linux", "WireShark", "encryption", "GitHub", "Django", "Reddit", "technology",
                  "Geeking", "JavaScript", "C Languages", "Kotlin", "scripting", "Git", "Bash", "firewall", "router", "systems admin", "cloud",
                  "security", "Hash Crack", "pass the hash", "social engineering", "red team", "blue team", "ethical hacking", "Nmap", "Kali", "Ubuntu",
